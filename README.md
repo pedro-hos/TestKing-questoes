@@ -1,11 +1,11 @@
 Aqui estão as questoes de 1 a 50, das 147, com suas opções e a resposta correta
 
 
-* Question No: 1
+#### Question No: 1
 
 Given:
 
-```java
+```
 1. public class test (
 2.  public static void main (String args[]) {
 3.    int i = 0xFFFFFFF1;
@@ -23,21 +23,28 @@ Given:
 * E. An error at line 3 causes compilation to fail.
 * F. An error at line 4 causes compilation to fail.
 
-Answer: C
+_Answer: C_
 
-Question No: 2
+#### Question No: 2
+
 Given:
+
+```
 Integer i = new Integer (42);
 Long 1 = new Long (42);
 Double d = new Double (42.0);
-Which two expressions evaluate to True? (Choose Two)
-A. (i ==1)
-B. (i == d)
-C. (d == 1)
-D. (i.equals (d))
-E. (d.equals (i))
-F. (i.equals (42))
-Answer: D, E
+```
+
+**Which two expressions evaluate to True? (Choose Two)**
+
+* A. (i ==1)
+* B. (i == d)
+* C. (d == 1)
+* D. (i.equals (d))
+* E. (d.equals (i))
+* F. (i.equals (42))
+
+_Answer: D, E_
 
 Question No: 3
 Exhibit :
