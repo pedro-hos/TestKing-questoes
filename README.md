@@ -5,7 +5,7 @@ Aqui estão as questoes de 1 a 50, das 147, com suas opções e a resposta corre
 
 Given:
 
-```
+```java
 1. public class test (
 2.  public static void main (String args[]) {
 3.    int i = 0xFFFFFFF1;
@@ -29,7 +29,7 @@ _Answer: C_
 
 Given:
 
-```
+```java
 Integer i = new Integer (42);
 Long 1 = new Long (42);
 Double d = new Double (42.0);
