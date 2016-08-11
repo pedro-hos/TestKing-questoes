@@ -11,7 +11,7 @@ Given:
 3.    int i = 0xFFFFFFF1;
 4.    int j = ~i;
 5.
-6. }
+6.  }
 7. )
 ```
 
