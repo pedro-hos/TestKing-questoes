@@ -1,21 +1,28 @@
 Aqui estão as questoes de 1 a 50, das 147, com suas opções e a resposta correta
 
-Question No: 1
+
+* Question No: 1
+
 Given:
+
+```java
 1. public class test (
-2. public static void main (String args[]) {
-3. int i = 0xFFFFFFF1;
-4. int j = ~i;
+2.  public static void main (String args[]) {
+3.    int i = 0xFFFFFFF1;
+4.    int j = ~i;
 5.
 6. }
 7. )
-What is the decimal value of j at line 5?
-A. 0
-B. 1
-C. 14
-D. –15
-E. An error at line 3 causes compilation to fail.
-F. An error at line 4 causes compilation to fail.
+```
+
+**What is the decimal value of j at line 5?**
+* A. 0
+* B. 1
+* C. 14
+* D. –15
+* E. An error at line 3 causes compilation to fail.
+* F. An error at line 4 causes compilation to fail.
+
 Answer: C
 
 Question No: 2
