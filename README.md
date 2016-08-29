@@ -46,8 +46,11 @@ Double d = new Double (42.0);
 
 _Answer: D, E_
 
-Question No: 3
-Exhibit :
+#### Question No: 3
+
+**Exhibit :**
+
+```java
 1. public class test (
 2. private static int j = 0;
 3.
@@ -67,15 +70,20 @@ Exhibit :
 16. system.out.printIn(j);
 17. )
 18. )
-What is the result?
-A. The program prints “0”
-B. The program prints “4”
-C. The program prints “8”
-D. The program prints “12”
-E. The code does not complete.
-Answer: B
+```
 
-Question No: 4
+**What is the result?**
+
+* A. The program prints “0”
+* B. The program prints “4”
+* C. The program prints “8”
+* D. The program prints “12”
+* E. The code does not complete.
+
+_Answer: B_
+
+#### Question No: 4
+
 Given
 1. Public class test (
 2. Public static void main (String args[]) (
@@ -85,7 +93,8 @@ Given
 What is the output?
 Answer: 5
 
-Question No: 5
+#### Question No: 5
+
 Given:
 1. public class Foo {
 2. public static void main (String [] args) {
@@ -108,7 +117,7 @@ E. The code compiles and prints “AB,AB”.
 F. The code does not compile because “+” cannot be overloaded for StringBuffer.
 Answer: D
 
-Question No: 6
+#### Question No: 6
 Exhibit:
 1. Public class test (
 2. Public static void stringReplace (String text) (
@@ -132,7 +141,7 @@ Exhibit:
 What is the output?
 Answer: JAVAJAVA
 
-Question No: 7
+#### Question No: 7
 Exhibit:
 1. public class test {
 2. public static void add3 (Integer i) }
@@ -154,7 +163,7 @@ C. The program prints “3”.
 D. Compilation will succeed but an exception will be thrown at line 3.
 Answer: B
 
-Question No: 8
+#### Question No: 8
 Given:
 1. public class ConstOver {
 2. public ConstOver (int x, int y, int z) {
@@ -168,7 +177,7 @@ D. Public Object ConstOver (int x, int y, int z) { }
 E. Public void ConstOver (byte x, byte y, byte z) { }
 Answer: A, C
 
-Question No: 9
+#### Question No: 9
 Given:
 1. public class MethodOver {
 2. public void setVar (int a, int b, float c) {
@@ -182,7 +191,7 @@ D. Public int setVar (int a, int b, float c) (return a;)
 E. Protected float setVar (int a, int b, float c) (return c;)
 Answer: A, C
 
-Question No: 10
+#### Question No: 10
 Given:
 1. class BaseClass {
 2. Private float x = 1.0f ;
@@ -200,7 +209,7 @@ D. Public float getVar ( ) { return x;}
 E. Public float getVar (float f ) { return f;}
 Answer: B, D
 
-Question No: 11
+#### Question No: 11
 Which two demonstrate an “is a” relationship? (Choose Two)
 A. public interface Person { }
 public class Employee extends Person { }
@@ -215,7 +224,8 @@ Class Container implements Component (
 Private Component[ ] children;
 )
 Answer: D, E
-Question No: 12
+
+#### Question No: 12
 Which statement is true?
 A. An anonymous inner class may be declared as final.
 B. An anonymous inner class can be declared as private.
@@ -224,7 +234,7 @@ D. An anonymous inner class can access final variables in any enclosing scope.
 E. Construction of an instance of a static inner class requires an instance of the enclosing outer class.
 Answer: D
 
-Question No 13
+#### Question No 13
 Given:
 1. package foo;
 2.
@@ -239,7 +249,7 @@ C. An instance of the inner class can only be constructed from within the outer 
 D. From within the package bar, an instance of the inner class can be constructed with “new inner()”
 Answer: A
 
-Question No 14
+#### Question No 14
 Exhibit:
 1. public class enclosingone (
 2. public class insideone{}
@@ -257,7 +267,7 @@ C. InsideOne ei = EnclosingOne.new InsideOne();
 D. EnclosingOne.InsideOne ei = eo.new InsideOne();
 Answer: D
 
-Question No 15
+#### Question No 15
 Exhibit:
 1. interface foo {
 2. int k = 0;
@@ -281,7 +291,7 @@ D. An error at line 10 causes compilation to fail.
 E. An error at line 11 causes compilation to fail.
 Answer: A
 
-Question No 16
+#### Question No 16
 Given:
 1. //point X
 2. public class foo (
@@ -299,7 +309,7 @@ D. Include java.io.OutputStreamWriter;
 E. No statement is needed.
 Answer: A
 
-Question No 17
+#### Question No 17
 Which two statements are reserved words in Java? (Choose Two)
 A. Run
 B. Import
@@ -307,7 +317,7 @@ C. Default
 D. Implement
 Answer: B, C
 
-Question No 18
+#### Question No 18
 Which three are valid declarations of a float? (Choose Three)
 A. Float foo = -1;
 B. Float foo = 1.0;
@@ -317,7 +327,7 @@ E. Float foo = 3.03d;
 F. Float foo = 0x0123;
 Answer: A, D, F
 
-Question No 19
+#### Question No 19
 Given:
 8. int index = 1;
 9. boolean[] test = new Boolean[3];
@@ -331,7 +341,7 @@ E. An exception is thrown.
 F. The code will not compile.
 Answer: D
 
-Question No 20
+#### Question No 20
 Given:
 1. public class test(
 2. public static void main(string[]args){
@@ -352,7 +362,7 @@ F. The code does not compile.
 G. The program throws an exception.
 Answer: G
 
-Question No 21
+#### Question No 21
 Given:
 8. int index = 1;
 9. int [] foo = new int [3];
@@ -366,7 +376,7 @@ D. An exception is thrown.
 E. The code will not compile.
 Answer: B
 
-Question No 22
+#### Question No 22
 Given:
 1. public class foo {
 2. public static void main (String[]args) {
@@ -382,7 +392,7 @@ D. The code does not compile because string s cannot be referenced.
 E. The code compiles, but a NullPointerException is thrown when toString is called.
 Answer: C
 
-Question No 23
+#### Question No 23
 Which will declare a method that forces a subclass to implement it?
 A. Public double methoda();
 B. Static void methoda (double d1) {}
@@ -391,7 +401,7 @@ D. Abstract public void methoda();
 E. Protected void methoda (double d1){}
 Answer: D
 
-Question No 24
+#### Question No 24
 You want subclasses in any package to have access to members of a superclass. Which is the most
 restrictive access modifier that will accomplish this objective?
 A. Public
@@ -401,7 +411,7 @@ D. Transient
 E. No access modifier is qualified
 Answer: C
 
-Question No 25
+#### Question No 25
 Given:
 1. abstract class abstrctIt {
 2. abstract float getFloat ();
@@ -417,7 +427,7 @@ C. An error at line 6 causes compilation to fail.
 D. An error at line 2 causes compilation to fail.
 Answer: C
 
-Question No 26
+#### Question No 26
 Exhibit:
 1. public class test(
 2. public int aMethod()[
@@ -439,7 +449,7 @@ C. Compilation will succeed and the program will print “1”
 D. Compilation will succeed and the program will print “2”
 Answer: D
 
-Question No 27
+#### Question No 27
 Given:
 1. class super {
 2. public float getNum() {return 3.0f;}
@@ -455,7 +465,7 @@ C. Public void getNum (double d) { }
 D. Public double getNum (float d) {retrun 4.0f; }
 Answer: B
 
-Question No 28
+#### Question No 28
 Which declaration prevents creating a subclass of an outer class?
 A. Static class FooBar{}
 B. Private class FooBar{}
@@ -464,7 +474,7 @@ D. Final public class FooBar{}
 E. Final abstract class FooBar{}
 Answer: D
 
-Question No 29
+#### Question No 29
 Given:
 1. byte [] arry1, array2[];
 2. byte array3 [][];
@@ -478,7 +488,7 @@ E. Both A and C
 F. Both B and C
 Answer: F
 
-Question No 30
+#### Question No 30
 Exhibit:
 1. class super (
 2. public int I = 0;
@@ -505,7 +515,7 @@ C. Compilation will succeed and the program will print “1”
 D. Compilation will succeed and the program will print “2”
 Answer: A
 
-Question No 31
+#### Question No 31
 Given:
 1. public class returnIt (
 2. returnType methodA(byte x, double y) (
@@ -521,7 +531,7 @@ E. Float
 F. Double
 Answer: F
 
-Question No 32
+#### Question No 32
 Given the ActionEvent, which method allows you to identify the affected component?
 A. GetClass.
 B. GetTarget.
@@ -539,7 +549,7 @@ D. Public boolean MouseMoved(MouseMotionEvent)
 E. Public boolean mouseMoved(MouseMotionEvent)
 Answer: A
 
-Question No 34
+#### Question No 34
 Exhibit:
 1. import java.awt*;
 2.
@@ -577,7 +587,7 @@ C. The size of the button labeled “One” is constant even if the Frame is res
 D. Both width and height of the button labeled “Three” might change if the Frame is resized.
 Answer: C, D
 
-Question No 35
+#### Question No 35
 You are assigned the task of building a panel containing a TextArea at the top, a label directly below it,
 and a button directly below the label. If the three components are added directly to the panel. Which
 layout manager can the panel use to ensure that the TextArea absorbs all of the free vertical space when
@@ -589,7 +599,7 @@ D. BorderLayout.
 E. GridBagLayout.
 Answer: E
 
-Question No 36
+#### Question No 36
 Which gets the name of the parent directory file “file.txt”?
 A. String name= File.getParentName(“file.txt”);
 B. String name= (new File(“file.txt”)).getParent();
@@ -599,7 +609,7 @@ E. Directory dir=(new File (“file.txt”)).getParentDir();
 String name= dir.getName();
 Answer: B
 
-Question No 37
+#### Question No 37
 Which can be used to encode charS for output?
 A. Java.io.OutputStream.
 B. Java.io.OutputStreamWriter.
@@ -608,7 +618,7 @@ D. Java.io.EncodeWriter.
 E. Java.io.BufferedOutputStream.
 Answer: B
 
-Question No 38
+#### Question No 38
 The file “file.txt” exists on the file system and contsins ASCII text.
 Given:
 38. try {
@@ -624,7 +634,7 @@ D. An exception is thrown because the file is not closed.
 E. The code runs and deletes the file from the file system.
 Answer: A
 
-Question No 39
+#### Question No 39
 Which constructs a DataOutputStream?
 A. New dataOutputStream(“out.txt”);
 B. New dataOutputStream(new file(“out.txt”));
@@ -634,7 +644,7 @@ E. New dataOutputStream(new OutputStream(“out.txt”));
 F. New dataOutputStream(new FileOutputStream(“out.txt”));
 Answer: F
 
-Question No 40
+#### Question No 40
 What writes the text “<end>” to the end of the file “file.txt”?
 A. OutputStream out= new FileOutputStream (“file.txt”);
 Out.writeBytes (“<end>/n”);
@@ -651,7 +661,8 @@ D. OutputStream os= new OutputStream (“file.txt”, true);
 DataOutputStream out = new DataOutputStream(os);
 out.writeBytes (“<end>/n”);
 Answer: B
-Question No 41
+
+#### Question No 41
 Given:
 1. public class X (
 2. public object m () {
@@ -669,7 +680,7 @@ C. Just after line 7 (that is, as the method returns)
 D. Never in this method.
 Answer: D
 
-Question No 42
+#### Question No 42
 Given:
 3. string foo = “ABCDE”;
 4. foo.substring(3);
@@ -678,7 +689,7 @@ Given:
 Type the value of foo at line 6.
 Answer: ABCDE
 
-Question No 43
+#### Question No 43
 Which method is an appropriate way to determine the cosine of 42 degrees?
 A. Double d = Math.cos(42);
 B. Double d = Math.cosine(42);
@@ -687,7 +698,7 @@ D. Double d = Math.cos(Math.toDegrees(42));
 E. Double d = Math.cosine(Math.toRadians(42));
 Answer: C
 
-Question No 44
+#### Question No 44
 You need to store elements in a collection that guarantees that no duplicates are stored and all elements
 can be accessed in natural order. Which interface provides that capability?
 A. Java.util.Map.
@@ -698,7 +709,7 @@ E. Java.util.StoredMap.
 F. Java.util.Collection.
 Answer: D
 
-Question No 45
+#### Question No 45
 Which statement is true for the class java.util.HashSet?
 A. The elements in the collection are ordered.
 B. The collection is guaranteed to be immutable.
@@ -707,7 +718,7 @@ D. The elements in the collection are accessed using a unique key.
 E. The elements in the collections are guaranteed to be synchronized.
 Answer: C
 
-Question No 46
+#### Question No 46
 Given:
 1. public class IfTest (
 2. public static void main(string[]args) {
@@ -726,7 +737,7 @@ C. An error at line 5 causes compilation to fall.
 D. The program executes but does not print a message.
 Answer: C
 
-Question No 47
+#### Question No 47
 Exhibit:
 1. public class test (
 2. public static void main(string args[]) {
@@ -748,7 +759,7 @@ D. 5
 E. The code will not compile.
 Answer: E
 
-Question No 48
+#### Question No 48
 Given:
 3. int i= 1, j= 10 ;
 4. do (
@@ -762,7 +773,7 @@ D. i = 5 and j= 6
 E. i = 6 and j= 6
 Answer: D
 
-Question No 49
+#### Question No 49
 Given:
 1. switch (i) {
 2. default:
@@ -776,7 +787,7 @@ D. Double
 E. Object
 Answer: A, B
 
-Question No 50
+#### Question No 50
 Given:
 1. public class foo {
 2. public static void main (string[]args)
